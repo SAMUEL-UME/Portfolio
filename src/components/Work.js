@@ -4,7 +4,6 @@ import projectCardData from "./WorkCardData";
 
 import React from "react";
 
-
 const Work = () => {
   return (
     <div className="work-container">
@@ -18,6 +17,7 @@ const Work = () => {
               title={val.title}
               text={val.text}
               view={val.view}
+              src={val.src}
             />
           );
         })}

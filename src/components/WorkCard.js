@@ -1,6 +1,5 @@
 import "./WorkCard.css";
 import React from "react";
-import {NavLink } from "react-router-dom";
 
 const WorkCard = (props) => {
   return (
@@ -10,17 +9,12 @@ const WorkCard = (props) => {
       <div className="pro-details">
         <p>{props.text}</p>
         <div className="pro-btn">
-          <a
-            href="https://rick-and-morty-wiki-samuel-ume.vercel.app/"
-            rel="noreferrer"
-            target="_blank"
-            className="btn"
-          >
+          <a href={props.view} rel="noreferrer" target="_blank" className="btn">
             View
           </a>
-          <NavLink to="url.com" className="btn">
+          <a href={props.src} className="btn">
             Source
-          </NavLink>
+          </a>
         </div>
       </div>
     </div>
