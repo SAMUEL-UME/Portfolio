@@ -32,8 +32,9 @@ ul {
   background: transparent;
   color: #fff;
 }
-btn:hover {
+.btn:hover {
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
   transition: 0.3s;
 }
+
