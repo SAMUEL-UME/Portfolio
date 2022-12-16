@@ -11,8 +11,8 @@ const HeroImg = () => {
         <img className="into-img" src={intoImg} alt="brackground cover" />
       </div>
       <div className="content">
-        <p>HI, I'M A FREELANCER</p>
-        <h1>Fullstack Developer </h1>
+        <p>Hello, I'M Samuel Ume</p>
+        <h1>I'm a full-stack web developer </h1>
         <div>
           <Link to="/project" className="btn">
             Projects
