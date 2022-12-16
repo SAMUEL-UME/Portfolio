@@ -55,9 +55,7 @@ const Container = styled.div`
   @media screen and (max-width: 1100px) {
     overflow: unset;
   }
-  @media screen and (max-width: 500px) {
-    background: #fff;
-  }
+  
   .lost {
     width: 90%;
     background: #000;
