@@ -8,6 +8,7 @@ import emailjs from "@emailjs/browser";
 
 const Form = () => {
   const form = useRef();
+  console.log(serviceId, templateId, publicKey )
 
   // const toastOptions = {
   //   position: "top-right",
