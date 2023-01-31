@@ -26,6 +26,17 @@
 .hamburger {
   display: none;
 }
+.navbar-logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.navbar-logo img {
+  width: 100%;
+  object-fit: contain;
+  object-position: top;
+}
 @media screen and (max-width: 1040px) {
   .nav-menu {
     flex-direction: column;

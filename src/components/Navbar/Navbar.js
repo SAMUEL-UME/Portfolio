@@ -2,6 +2,7 @@ import "./Navbar.css";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
+import logo from "../../resource/sm.png";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -11,16 +12,18 @@ const Navbar = () => {
     if (window.scrollY >= 100) {
       setColor(true);
     } else {
-      setColor(false)
+      setColor(false);
     }
   };
 
-  window.addEventListener("scroll", changeColor)
+  window.addEventListener("scroll", changeColor);
   return (
     <div className={color ? "header header-bg" : "header"}>
-      <Link to="/">
-        <h1>Portfolio</h1>
-      </Link>
+      <div className="navbar-logo">
+        <Link to="/">
+          <img src={logo} alt="logo" />
+        </Link>
+      </div>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
           <Link to="/">Home</Link>

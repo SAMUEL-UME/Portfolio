@@ -1,9 +1,8 @@
 import React from "react";
-import Footer from "../components/Footer";
-import HeroImg2 from "../components/HeroImg2";
-import Navbar from "../components/Navbar";
-import Work from "../components/Work";
-// import WorkCard from "../components/WorkCard";
+import HeroImg2 from "../components/Hero/HeroImg2";
+import Navbar from "../components/Navbar/Navbar";
+import Work from "../components/Work/Work";
+import Footer from "../components/Footer/Footer";
 
 const Project = () => {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
-import AboutContent from "../components/AboutContent";
-import Footer from "../components/Footer";
-import HeroImg2 from "../components/HeroImg2";
-import Navbar from "../components/Navbar";
+import AboutContent from "../components/About/AboutContent";
+import HeroImg2 from "../components/Hero/HeroImg2";
+import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 
 function About() {
   return (

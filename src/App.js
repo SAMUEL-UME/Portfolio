@@ -1,11 +1,12 @@
 import React from "react";
 // import About from "./routes/About";
-import Home from "./routes/Home";
-import Contact from "./routes/Contact";
+import Home from "./page/Home";
+import Contact from "./page/Contact";
 import { Route, Routes } from "react-router-dom";
-import Project from "./routes/Project";
-import About from "./routes/About";
-import NotFound from "./routes/NotFound";
+import Project from "./page/Project";
+import About from "./page/About";
+import NotFound from "./page/NotFound";
+
 
 const App = () => {
   return (

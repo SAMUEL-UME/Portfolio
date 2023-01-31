@@ -1,7 +1,7 @@
 import "./Form.css";
 
 import { useRef } from "react";
-import { serviceId, templateId, publicKey } from "../utils/config";
+import { serviceId, templateId, publicKey } from "../../utils/config";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/ReactToastify.min.css";
 import emailjs from "@emailjs/browser";
@@ -10,13 +10,6 @@ const Form = () => {
   const form = useRef();
   console.log(serviceId, templateId, publicKey )
 
-  // const toastOptions = {
-  //   position: "top-right",
-  //   autoClose: 7000,
-  //   pauseOnHover: true,
-  //   draggable: false,
-  //   theme: "light",
-  // };
   function isValidEmail(email) {
     return email.match(
       /^[a-zA-Z0-9][a-zA-Z0-9._-]*@[a-zA-Z0-9]+\.[a-zA-Z]{2,}$/
